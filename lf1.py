@@ -4,8 +4,8 @@ import requests
 import random
 from requests_aws4auth import AWS4Auth
 
-ACCESSID = "AKIA5PVTOOV6QK5HGSIA"
-SECRETACCESS = "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"
+ACCESSID = ""
+SECRETACCESS = ""
 
 def receiveMsgFromSqsQueue():
     sqs = boto3.client('sqs')
